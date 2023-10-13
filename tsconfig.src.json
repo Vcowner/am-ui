@@ -1,0 +1,12 @@
+// 对于所有模块中 src 目录下的源码文件
+{
+  // 继承基础配置
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    // 组建库依赖浏览器的 DOM API
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": ["node"]
+  },
+  "include": ["typings/env.d.ts", "packages/**/src"]
+}

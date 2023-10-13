@@ -1,0 +1,37 @@
+{
+    "name": "@am-ui/input",
+    "version": "0.0.0",
+    "description": "input",
+    "keywords": [
+        "vue",
+        "ui",
+        "component library"
+    ],
+    "author": "ka1en",
+    "license": "MIT",
+    "homepage": "",
+    "main": "./dist/am-ui-input.umd.js",
+    "module": "./dist/am-ui-input.mjs",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "require": "./dist/am-ui-input.umd.js",
+            "module": "./dist/am-ui-input.mjs",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "scripts": {
+        "build": "vite build"
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "peerDependencies": {
+        "vue": "^3.3.4"
+    },
+    "dependencies": {
+        "@am-ui/shared": "workspace:^"
+    },
+    "devDependencies": {}
+}

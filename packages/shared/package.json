@@ -1,0 +1,23 @@
+{
+    "name": "@am-ui/shared",
+    "author": "ka1en",
+    "license": "MIT",
+    "homepage": "",
+    "main": "./dist/am-ui-shared.umd.js",
+    "module": "./dist/am-ui-shared.mjs",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "require": "./dist/am-ui-shared.umd.js",
+            "module": "./dist/am-ui-shared.mjs",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "scripts": {
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@types/lodash": "^4.14.199",
+        "lodash": "^4.17.21"
+    }
+}
