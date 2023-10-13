@@ -1,0 +1,11 @@
+###
+ # @Author: liaokt
+ # @Description: 
+ # @Date: 2023-10-13 17:25:08
+ # @LastEditors: liaokt
+ # @LastEditTime: 2023-10-13 17:25:24
+### 
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx --no -- lint-staged
