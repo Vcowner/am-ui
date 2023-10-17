@@ -1,7 +1,7 @@
 // .vscode/settings.json
 {
   "typescript.tsdk": "node_modules/typescript/lib",
-  "cSpell.words": ["commitlint", "stylelint"],
+  "cSpell.words": ["commitlint", "liaokt", "stylelint", "unocss"],
 
   // 关闭 IDE 自带的样式检测
   "css.validate": false,

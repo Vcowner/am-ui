@@ -3,7 +3,7 @@
  * @Description:
  * @Date: 2023-10-12 14:42:21
  * @LastEditors: liaokt
- * @LastEditTime: 2023-10-12 14:56:12
+ * @LastEditTime: 2023-10-17 16:50:17
  */
 
 const { defineConfig } = require('eslint-define-config');
@@ -24,11 +24,7 @@ module.exports = defineConfig({
   globals: {},
 
   // 集成 Airbnb 规则集以及 vue 相关规则
-  extends: [
-    'airbnb-base',
-    'airbnb-typescript/base',
-    'plugin:vue/vue3-recommended',
-  ],
+  extends: ['airbnb-base', 'airbnb-typescript/base', 'plugin:vue/vue3-recommended'],
 
   // 指定 vue 解析器
   parser: 'vue-eslint-parser',
@@ -75,6 +71,7 @@ module.exports = defineConfig({
     {
       files: ['**/vite.config.*', '**/vitest.config.*'],
       rules: {
+        'import/no-relative-packages': 'off',
         'no-console': 'off',
       },
     },

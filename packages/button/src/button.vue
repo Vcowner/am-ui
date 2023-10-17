@@ -3,11 +3,11 @@
  * @Description:
  * @Date: 2023-10-09 17:03:46
  * @LastEditors: liaokt
- * @LastEditTime: 2023-10-13 09:39:47
+ * @LastEditTime: 2023-10-17 17:11:20
 -->
 <template>
   <button
-    class="am-button"
+    class="am-button text-blue ml-2px cursor-pointer"
     @click="clickHandle"
   >
     <slot />
